@@ -1,0 +1,237 @@
+header,main, footer{
+
+    margin:0 0.5em;
+    padding: 2em;
+}
+body{ margin:0;
+    padding:0;
+    background-image:url("Afghanistan-wallpaper-4.jpg");
+}
+
+#wrapper{
+    color: black;
+    /*background-color: rgba(243, 236, 236, 0.4);*/
+
+}
+header {
+    background-color: rgba(255, 255, 255, 0.5);
+    text-align: center;
+    padding: 30px;
+    border-radius: 60px;
+    margin-top: 80px;
+}
+header h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+
+}
+header h2 {
+    /*background-color: rgba(55, 154, 216, 0.2);*/
+
+
+}
+
+header {
+    font-size: 16px;
+    font-style:italic;
+}
+
+nav ul {
+    padding: 1em 0;
+    margin: 10px 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline-table;
+    margin: 0 10px;
+}
+nav ul li a:hover {
+    background-color: white;
+}
+
+#event-details{
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 80px 80px 80px 80px;
+    text-align: center;
+    width: 130vh;
+    margin: 0 auto;
+    margin-top: 150px;
+}
+
+
+section {
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 800px;
+    background-color: white;
+    border: 1px solid #ddd;
+}
+.lobster-regular, h1, h2{
+    font-family: "Lobster", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+section h2 {
+    font-size: 20px;
+    color: #333;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+#guests-speakers {
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #eee;
+    margin-bottom: 20px;
+    overflow: hidden;
+    margin-top: 330px;
+}
+
+#guests-speakers h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.speaker {
+    float: left;
+    width: 30%;
+    margin-right: 3%;
+    margin-bottom: 20px;
+    padding: 15px;
+    border: 1px solid #ddd;
+    background-color: #fff;
+    box-sizing: border-box;
+    border-radius: 8px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.speaker:last-child {
+    margin-right: 0;
+}
+
+.speaker img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+
+.speaker h3 {
+    margin-top: 0;
+    margin-bottom: 5px;
+    color: #333;
+    font-size: 1.2em;
+}
+
+.speaker p {
+    font-size: 0.9em;
+    color: #666;
+    line-height: 1.5;
+    text-align: left;
+}
+
+@media (max-width: 768px) {
+    .speaker {
+        width: 48%;
+    }
+
+    .speaker:nth-child(2n) {
+        margin-right: 0;
+    }
+
+    .speaker:nth-child(3) {
+        clear: left;
+    }
+}
+
+
+
+    .speaker:nth-child(3) {
+        clear: none;
+    }
+
+section h3 {
+    margin-top: 60px;
+
+
+}
+
+
+#gallery .gallery-container {
+    overflow: hidden;
+    padding: 20px;
+}
+
+#gallery .gallery-item {
+    float: left;
+    width: 30%;
+    margin-right: 3%;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+    border-radius: 8px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+#gallery .gallery-item:last-child {
+    margin-right: 0;
+}
+
+#gallery .gallery-item img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+    display: block;
+    margin: 0 auto;
+}
+
+#gallery .gallery-item:nth-child(1) img {
+    max-height: 150px;
+    width: auto;
+}
+
+    #gallery .gallery-item:nth-child(2n) {
+        margin-right: 0;
+    }
+
+    #gallery .gallery-item:nth-child(3n) {
+        margin-right: 3%;
+    }
+
+    #gallery .gallery-item:nth-child(1) img {
+        max-height: none;
+        width: 80%;
+    }
+
+#schedule .session:nth-child(even) {
+    background-color: #f0f0f0;
+}
+
+#testimonials .testimonial {
+    font-style: italic;
+    text-align: center;
+}
+
+#testimonials .testimonial p:last-child {
+    font-weight: bold;
+    margin-top: 5px;
+}
+
+#location iframe {
+    width: 100%;
+    height: 250px;
+    border: none;
+}
+
+/*
+#wrapper{
+    background-image: url("../img/Afghanistan-wallpaper-4.jpg");
+}*/
+
